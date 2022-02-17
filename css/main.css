@@ -1,4 +1,4 @@
-/* line 17, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_base.scss */
+/* line 18, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_base.scss */
 html {
   font-size: 13px;
   font-family: 'Roboto', sans-serif;
@@ -7,39 +7,60 @@ html {
 
 /* line 2, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 .card {
-  border: 1px blue solid;
   width: 90%;
   margin: 0 0 2em 0;
   box-sizing: border-box;
   padding: 1.5em;
+  border-radius: 2%;
 }
 
-/* line 10, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+/* line 11, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 #daniel-container {
+  background-color: #7541c8;
   position: relative;
   margin-top: 2em;
 }
 
-/* line 15, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+/* line 16, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+#jonathon-container {
+  background-color: #48556a;
+}
+
+/* line 19, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+#jeanette-container {
+  background-color: white;
+}
+
+/* line 22, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+#patrick-container {
+  background-color: #19212e;
+}
+
+/* line 25, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+#kira-container {
+  background-color: white;
+}
+
+/* line 29, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 .profile-info {
   display: inline-block;
   position: relative;
   top: -.25em;
 }
 
-/* line 22, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+/* line 36, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 .profile-name,
 .profile-title {
   margin: 0;
 }
 
-/* line 27, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+/* line 41, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 .quote-highlight {
   z-index: 1;
   position: relative;
 }
 
-/* line 36, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+/* line 50, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 .quotation {
   position: absolute;
   right: 2em;
@@ -47,7 +68,7 @@ html {
   z-index: 0;
 }
 
-/* line 43, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+/* line 57, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 .profile-img {
   border-radius: 50%;
   width: 40px;
@@ -60,6 +81,12 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #edf2f8;
+}
+
+/* line 8, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_layout.scss */
+body {
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

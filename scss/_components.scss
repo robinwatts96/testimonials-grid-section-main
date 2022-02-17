@@ -1,15 +1,29 @@
 // Cards
 .card {
-    border: 1px blue solid;
+    // border: 1px blue solid;
     width: 90%;
     margin: 0 0 2em 0;
     box-sizing: border-box;
     padding: 1.5em;
+    border-radius: 2%;
 }
 
 #daniel-container {
+    background-color: $violet;
     position: relative;
     margin-top: 2em;
+}
+#jonathon-container {
+    background-color: $dark-grey;
+}
+#jeanette-container {
+    background-color: $white;
+}
+#patrick-container {
+    background-color: $dark-black;
+}
+#kira-container {
+    background-color: $white;
 }
 
 .profile-info {
