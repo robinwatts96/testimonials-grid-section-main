@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_base.scss",
+		"../scss/_components.scss",
+		"../scss/_layout.scss"
+	],
+	"sourcesContent": [
+		"@import \r\n'base',\r\n'components',\r\n'layout';",
+		"\r\n",
+		"",
+		"body {\r\n    background-color: blue;\r\n    color: red;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AGAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,GAAG;CACb"
+}
