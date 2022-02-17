@@ -1,7 +1,6 @@
-/* line 1, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_layout.scss */
-body {
-  background-color: blue;
-  color: red;
+/* line 2, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
+.card {
+  border: 1px blue solid;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,10 +9,10 @@
 	],
 	"sourcesContent": [
 		"@import \r\n'base',\r\n'components',\r\n'layout';",
-		"\r\n",
-		"",
-		"body {\r\n    background-color: blue;\r\n    color: red;\r\n}"
+		"// Variables\r\n\r\n\r\n\r\n\r\n// Mixins\r\n\r\n\r\n\r\n// Reset\r\n\r\n",
+		"// Cards\r\n.card {\r\n    border: 1px blue solid;\r\n}",
+		""
 	],
 	"names": [],
-	"mappings": ";AGAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,GAAG;CACb"
+	"mappings": ";AECA,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,cAAc;CACzB"
 }
