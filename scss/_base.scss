@@ -1,6 +1,24 @@
 // Variables
+// Primary
+$violet: hsl(263, 55%, 52%);
+$dark-grey: hsl(217, 19%, 35%);
+$dark-black: hsl(219, 29%, 14%);
+$white: hsl(0, 0%, 100%);
+
+// Neutral
+$light-grey: hsl(0, 0%, 81%);
+$light-grey-blue: hsl(210, 46%, 95%);
+
+// Font weight
+$bold: 600; 
 
 
+// Typography
+html {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
 
 
 // Mixins

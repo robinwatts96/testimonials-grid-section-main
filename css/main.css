@@ -1,3 +1,10 @@
+/* line 17, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_base.scss */
+html {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
 /* line 2, ../../../OneDrive/Documents/GitHub/testimonials-grid-section-main/scss/_components.scss */
 .card {
   border: 1px blue solid;

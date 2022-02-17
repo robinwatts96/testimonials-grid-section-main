@@ -9,10 +9,10 @@
 	],
 	"sourcesContent": [
 		"@import \r\n'base',\r\n'components',\r\n'layout';",
-		"// Variables\r\n\r\n\r\n\r\n\r\n// Mixins\r\n\r\n\r\n\r\n// Reset\r\n\r\n",
+		"// Variables\r\n// Primary\r\n$violet: hsl(263, 55%, 52%);\r\n$dark-grey: hsl(217, 19%, 35%);\r\n$dark-black: hsl(219, 29%, 14%);\r\n$white: hsl(0, 0%, 100%);\r\n\r\n// Neutral\r\n$light-grey: hsl(0, 0%, 81%);\r\n$light-grey-blue: hsl(210, 46%, 95%);\r\n\r\n// Font weight\r\n$bold: 600; \r\n\r\n\r\n// Typography\r\nhtml {\r\n    font-size: 13px;\r\n    font-family: 'Roboto', sans-serif;\r\n    font-family: 'Titillium Web', sans-serif;\r\n}\r\n\r\n\r\n// Mixins\r\n\r\n\r\n\r\n// Reset\r\n\r\n",
 		"// Cards\r\n.card {\r\n    border: 1px blue solid;\r\n}",
 		""
 	],
 	"names": [],
-	"mappings": ";AECA,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,cAAc;CACzB"
+	"mappings": ";ACgBA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,2BAA2B;CAC3C;;;ACnBD,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,cAAc;CACzB"
 }
