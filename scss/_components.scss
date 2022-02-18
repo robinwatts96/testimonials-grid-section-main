@@ -1,6 +1,5 @@
-// Cards
+// Card Containers
 .card {
-    // border: 1px blue solid;
     width: 90%;
     min-width: 230px;
     max-width: 450px;
@@ -32,11 +31,11 @@
     margin-bottom: 6em;
 }
 
+// Card Inner Components
 .profile-info {
     display: inline-block;
     position: relative;
     top: -.25em;
-
 }
 
 .profile-name,
@@ -72,10 +71,54 @@
     z-index: 0;
 }
 
+// Profile IMG
 .profile-img {
     border-radius: 50%;
-    // width: minmax();
     width: 35px;
     height: auto;
     margin-right: 1em;
+}
+
+
+// Media
+@media all and (min-width: 1200px) {
+    .card {
+        width: 100%;
+        height: 100%;
+        max-width: 1000px;
+        margin: 0;
+    }
+
+    #daniel-container {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin: 0;
+    }
+    #jonathon-container {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #jeanette-container {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #patrick-container {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #kira-container {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin: 0;
+    }
 }
